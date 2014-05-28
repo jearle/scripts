@@ -6,4 +6,17 @@ These are scripts that I've been writing over the years to help automate my deve
 
 ### Bash
 
-Creates a simple web project.
+A simple web project.
+
+It creates a simple structure with the following tree:
+
+```
+.
+├── css
+│   └── main.css
+├── img
+├── index.html
+├── js
+│   └── main.js
+└── serve
+```
