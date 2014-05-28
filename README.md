@@ -6,7 +6,7 @@ These are scripts that I've been writing over the years to help automate my deve
 
 ### Bash
 
-A simple web project.
+This command creates a simple web project scaffold.
 
 To execute the command run the following:
 
