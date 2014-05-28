@@ -2,6 +2,12 @@
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-TEMPLATE=$DIR/templates/web-project
+TEMPLATE_DIR=$DIR/templates/web-project/.
 
-cp -R $TEMPLATE $1
+DESTINATION="."
+
+if [ "$1" != "" ]; then
+  DESTINATION="$1"
+fi
+
+cp -R $TEMPLATE_DIR $DESTINATION
