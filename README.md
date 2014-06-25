@@ -38,3 +38,21 @@ The command takes an optional port number. For example:
 ```bash
 ./serve 8989
 ```
+
+## node-project
+
+### Bash
+
+This command creates a simple node project scaffold, complete with mocha tests, and the chai testing library:
+
+```
+.
+├── index.js
+├── lib
+│   └── test-file.js
+├── node_modules
+├── package.json
+└── test
+    └── lib
+        └── test-file.js
+```
