@@ -11,7 +11,7 @@ This command creates a simple web project scaffold.
 To execute the command run the following:
 
 ```bash
-web-project ./path/to/directory
+simple-web-project ./path/to/directory
 ```
 
 It creates a simple structure with the following tree:

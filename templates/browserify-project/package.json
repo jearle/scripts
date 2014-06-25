@@ -1,0 +1,26 @@
+{
+  "name": "name",
+  "version": "0.0.0",
+  "description": "description",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "NODE_PATH=./ node_modules/.bin/mocha -R spec --recursive test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://url/url"
+  },
+  "keywords": [
+    "keywords"
+  ],
+  "author": "Jesse Earle",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^1.20.1",
+    "chai": "^1.9.1",
+    "gulp": "^3.8.2"
+  }
+}
