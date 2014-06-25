@@ -11,7 +11,7 @@ This command creates a simple web project scaffold.
 To execute the command run the following:
 
 ```bash
-simple-web-project ./path/to/directory
+simple-web-project ./path/to/dir
 ```
 
 It creates a simple structure with the following tree:
@@ -43,7 +43,15 @@ The command takes an optional port number. For example:
 
 ### Bash
 
-This command creates a simple node project scaffold, complete with mocha tests, and the chai testing library:
+This command creates a simple node project scaffold, complete with mocha tests, and the chai testing library.
+
+To run the command execute the following:
+
+```bash
+node-project ./path/to/dir
+```
+
+The above command will generate the following:
 
 ```
 .
