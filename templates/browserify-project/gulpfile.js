@@ -2,7 +2,7 @@
 require('./task/default');
 
 require('./task/browserify');
-require('./task/jshint');
+require('./task/lint');
 require('./task/compress');
 require('./task/watch');
 require('./task/serve');

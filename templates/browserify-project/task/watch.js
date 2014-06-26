@@ -9,7 +9,7 @@ gulp.task('watch', function () {
       'prod.html'
     ],
     [
-      'jshint',
+      'lint',
       'live-reload'
     ]
   )
