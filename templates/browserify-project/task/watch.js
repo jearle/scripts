@@ -5,11 +5,12 @@ gulp.task('watch', function () {
   return gulp.watch(
     [
       'lib/**/*',
-      'index.html',
-      'prod.html'
+      'test/**/*',
+      'index.html'
     ],
     [
       'lint',
+      'test',
       'live-reload'
     ]
   )

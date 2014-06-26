@@ -6,7 +6,7 @@ var fs = require('fs-extra');
 
 var constants = require('./lib/constants');
 
-gulp.task('compress', ['browserify'], function () {
+gulp.task('compress', ['browserify', 'browserify-test'], function () {
 
   var index = fs.readFileSync(__dirname + '/../index.html', 'utf8');
   var prodIndex = index.replace('src="build/dev.js"', 'src="build/prod.js"');

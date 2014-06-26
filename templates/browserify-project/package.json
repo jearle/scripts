@@ -7,7 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "NODE_PATH=./ node_modules/.bin/mocha -R spec --recursive test"
+    "test": "NODE_PATH=./ node_modules/.bin/mocha -R spec --recursive test",
+    "browserify-test": "NODE_PATH=./ node_modules/.bin/browserify -d -e test/lib/* -o build/test.js"
   },
   "repository": {
     "type": "git",
